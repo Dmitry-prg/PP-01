@@ -1,0 +1,742 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58EF1335-95AE-42B6-88D1-2DD97C6A3182}|UnitTestProject\\UnitTestProject.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58EF1335-95AE-42B6-88D1-2DD97C6A3182}|UnitTestProject\\UnitTestProject.csproj|solutionrelative:unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|c:\\users\\dimon\\desktop\\\u043F\u043F-01\\equipmentapp\\equipment\\classes\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\documentsexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\documentsexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\customersforms\\updatecustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\customersforms\\updatecustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\updatestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\updatestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\addstaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\addstaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\customermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\customermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\managermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\managermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\ordersforms\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\ordersforms\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\ordersforms\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\ordersforms\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\spstatusorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\spstatusorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\sppost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\sppost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\spaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\spaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\equipments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\equipments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\equipmentonorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\equipmentonorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\sptypeequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\sptypeequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\equipmentonorderforms\\updateequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\equipmentonorderforms\\updateequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\equipmentonorderforms\\updateequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\equipmentonorderforms\\updateequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\ordersforms\\addcustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\ordersforms\\addcustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\ordersforms\\addcustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\ordersforms\\addcustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\ordersforms\\updatecustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\ordersforms\\updatecustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\ordersforms\\updatecustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\ordersforms\\updatecustomerorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\equipmentonorderforms\\addequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\equipmentonorderforms\\addequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\equipmentonorderforms\\addequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\equipmentonorderforms\\addequipmentonorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\equipmentoninvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\equipmentoninvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\spvendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\spvendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\spcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\spcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\classes\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\updatestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\updatestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\customersforms\\updatecustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\customersforms\\updatecustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\customersforms\\addcustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\customersforms\\addcustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\customersforms\\addcustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\customersforms\\addcustomersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\addstaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\addstaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\managermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\managermenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\customersforms\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\customersforms\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\customersforms\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\customersforms\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\equipmentsforms\\equipmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\equipmentsforms\\equipmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\equipmentsforms\\equipmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\equipmentsforms\\equipmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\lkcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\lkcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\customersforms\\lkcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\customersforms\\lkcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStaffForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAWwIAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:05:24.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:34:08.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:46:35.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentsExport.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\DocumentsExport.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\DocumentsExport.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\DocumentsExport.cs",
+              "RelativeToolTip": "equipment\\Classes\\DocumentsExport.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:58:11.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Orders.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\Orders.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Orders.cs",
+              "RelativeToolTip": "equipment\\Classes\\Orders.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T21:04:20.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\UnitTestProject\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTestProject\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\UnitTestProject\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTestProject\\UnitTest1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:39:21.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAApwOAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:22:34.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Staff.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\Staff.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Staff.cs",
+              "RelativeToolTip": "equipment\\Classes\\Staff.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAiwOcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:53:13.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SpAccess.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpAccess.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\SpAccess.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpAccess.cs",
+              "RelativeToolTip": "equipment\\Classes\\SpAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:20:24.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpPost.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpPost.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\SpPost.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpPost.cs",
+              "RelativeToolTip": "equipment\\Classes\\SpPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:24:55.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SpStatusOrder.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpStatusOrder.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\SpStatusOrder.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpStatusOrder.cs",
+              "RelativeToolTip": "equipment\\Classes\\SpStatusOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:26:43.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\CustomerMenuForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\CustomerMenuForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\CustomerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\CustomerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:04:41.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManagerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:00:15.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:57:44.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Invoice.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\Invoice.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Invoice.cs",
+              "RelativeToolTip": "equipment\\Classes\\Invoice.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAawGcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:06:50.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Equipments.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Equipments.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\Equipments.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Equipments.cs",
+              "RelativeToolTip": "equipment\\Classes\\Equipments.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAawOAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:04:39.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EquipmentOnOrder.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\EquipmentOnOrder.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\EquipmentOnOrder.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\EquipmentOnOrder.cs",
+              "RelativeToolTip": "equipment\\Classes\\EquipmentOnOrder.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:07:23.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Customers.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\Customers.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Customers.cs",
+              "RelativeToolTip": "equipment\\Classes\\Customers.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAhwDMBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:58:43.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SpTypeEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpTypeEquipment.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\SpTypeEquipment.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpTypeEquipment.cs",
+              "RelativeToolTip": "equipment\\Classes\\SpTypeEquipment.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowG4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:28:11.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:05:57.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateCustomerOrderForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:00:43.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateEquipmentOnOrderForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwC0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:04:30.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddCustomerOrderForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:06:35.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:06:31.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:01:17.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddEquipmentOnOrderForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:06:24.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:06:22.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EquipmentOnInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\EquipmentOnInvoice.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\EquipmentOnInvoice.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\EquipmentOnInvoice.cs",
+              "RelativeToolTip": "equipment\\Classes\\EquipmentOnInvoice.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAQwIQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:45:18.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SpCompany.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpCompany.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\SpCompany.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpCompany.cs",
+              "RelativeToolTip": "equipment\\Classes\\SpCompany.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswIEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:22:57.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SpVendor.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpVendor.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\SpVendor.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpVendor.cs",
+              "RelativeToolTip": "equipment\\Classes\\SpVendor.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwG0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:29:32.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\DBConnection.cs",
+              "RelativeDocumentMoniker": "equipment\\Classes\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\DBConnection.cs",
+              "RelativeToolTip": "equipment\\Classes\\DBConnection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:45:09.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddCustomersForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAnwEEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:05:17.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateCustomersForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAnwF4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:05:41.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateStaffForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAewDAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:30:10.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\CustomersForms\\AddCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:05:14.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:33:48.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StaffForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAewBgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:51:36.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\StaffForms\\StaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:33:24.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:07:44.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ManagerMenuForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAnwHUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:00:19.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EquipmentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:00:55.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EquipmentsForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAWwFgAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:00:33.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "equipment\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Properties\\Resources.resx",
+              "RelativeToolTip": "equipment\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-25T05:18:22.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CustomersForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\CustomersForms\\CustomersForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIAxwCoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:07:46.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LKCustomerForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\LKCustomerForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\LKCustomerForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\LKCustomerForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\LKCustomerForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA3wC8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:00:55.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LKCustomerForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\LKCustomerForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\LKCustomerForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\LKCustomerForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "equipment\\Forms\\CustomersForms\\LKCustomerForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:00:53.15Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1263 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>equipment</name>
+    </assembly>
+    <members>
+        <member name="M:equipment.Classes.Customers.CheckDuplicate(System.String)">
+            <summary>
+            Проверяет уникальность логина в базе данных
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.CheckPassword(System.String)">
+            <summary>
+            Проверяет соответствие пароля требованиям безопасности
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.CheckEmail(System.String)">
+            <summary>
+            Проверяет корректность формата email-адреса
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.GetLKInfo">
+            <summary>
+            Загружает информацию о текущем пользователе в статические поля класса
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.Customers.Autorization(System.String,System.String)">
+            <summary>
+            Выполняет авторизацию пользователя
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.CheckAccess(System.String)">
+            <summary>
+            Получает уровень доступа пользователя по логину
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.GetListCustomers">
+            <summary>
+            Загружает полный список клиентов 
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.Customers.GetId">
+            <summary>
+            Получает идентификатор клиента по текущему логину
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.Add(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             Добавляет нового клиента в базу данных
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+            <param name="surname"></param>
+            <param name="name"></param>
+            <param name="patronymic"></param>
+            <param name="email"></param>
+            <param name="phone"></param>
+            <param name="idCompany"></param>
+            <param name="idAccess"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.Update(System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Обновляет информацию о клиенте в базе данных
+            </summary>
+            <param name="idCustomer"></param>
+            <param name="editPassword"></param>
+            <param name="login"></param>
+            <param name="password"></param>
+            <param name="surname"></param>
+            <param name="name"></param>
+            <param name="patronymic"></param>
+            <param name="email"></param>
+            <param name="phone"></param>
+            <param name="idCompany"></param>
+            <param name="idAccess"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Customers.UpdateForCustomer(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Обновляет личную информацию клиента без изменения логина и пароля
+            Метод предназначен для использования самим клиентом в личном кабинете
+            </summary>
+            <param name="idCustomer"></param>
+            <param name="surname"></param>
+            <param name="name"></param>
+            <param name="patronymic"></param>
+            <param name="email"></param>
+            <param name="phone"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.DBConnection.ConnectBD">
+            <summary>
+            Метод установки соединения с БД
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.DBConnection.CloseBD">
+            <summary>
+            Метод отключения соединения с БД
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.DocumentsExport.Act(System.String,System.String,System.String,System.String)">
+            <summary>
+            Метод для формирования документа "Акт приёма-передачи"
+            </summary>
+            <param name="fName"></param>
+            <param name="idOrder"></param>
+            <param name="dateOrder"></param>
+            <param name="nameCompany"></param>
+        </member>
+        <member name="M:equipment.Classes.DocumentsExport.OrderInfo(System.String,System.String,System.String,System.String)">
+            <summary>
+            Метод для формирования документа "Заявка"
+            </summary>
+            <param name="nameMedicines"></param>
+            <param name="idMedicines"></param>
+            <param name="fName"></param>
+        </member>
+        <member name="M:equipment.Classes.Equipments.GetCountEquipment(System.String)">
+            <summary>
+            Возвращает количество указанного оборудования в наличии
+            </summary>
+            <param name="idEquipment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Equipments.GetListFindEquipments(System.String)">
+            <summary>
+            Загружает список искомого оборудования
+            </summary>
+            <param name="findString"></param>
+        </member>
+        <member name="M:equipment.Classes.Equipments.GetList">
+            <summary>
+            Загружает полный список оборудования
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.Equipments.GetListFilter(System.String)">
+            <summary>
+            Загружает список оборудования указанного типа
+            </summary>
+            <param name="idTypeEquipment"></param>
+        </member>
+        <member name="M:equipment.Classes.Equipments.CheckDuplicate(System.String)">
+            <summary>
+            Проверяет наличие дубликатов оборудования
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Equipments.CheckDelete(System.String)">
+            <summary>
+            Проверяет возможность удаления указанного оборудования
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Equipments.Add(System.String,System.String,System.String,System.String)">
+            <summary>
+            Добавляет новое оборудование
+            </summary>
+            <param name="nameEquipment"></param>
+            <param name="idTypeEquipment"></param>
+            <param name="price"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Equipments.Update(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Обновляет информацию об оборудовании
+            </summary>
+            <param name="id"></param>
+            <param name="nameEquipment"></param>
+            <param name="idTypeEquipment"></param>
+            <param name="price"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Equipments.Delete(System.String)">
+            <summary>
+            Удаляет запись оборудования
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Equipments.ConvertDecimal(System.String)">
+            <summary>
+            Метод находит в указанной строке "," и меняет их на "."
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnInvoice.GetListEquipmentOnInvoice(System.String)">
+            <summary>
+            Получает список оборудования, привязанного к накладной
+            </summary>
+            <param name="idInvoice"></param>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnInvoice.CheckDuplicate(System.String,System.String)">
+            <summary>
+            Проверяет наличие дубликатов оборудования в накладной
+            </summary>
+            <param name="idInvoice"></param>
+            <param name="idEquipment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnInvoice.Add(System.String,System.String,System.String)">
+            <summary>
+            Добавляет новое оборудование в накладную
+            </summary>
+            <param name="idInvoice"></param>
+            <param name="idEquipment"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnInvoice.Update(System.String,System.String,System.String)">
+            <summary>
+            Обновляет информацию об оборудовании в накладной
+            </summary>
+            <param name="idEquipmentOnInvoice"></param>
+            <param name="idEquipment"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnInvoice.Delete(System.String)">
+            <summary>
+            Удаляет запись оборудования из накладной
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnInvoice.DeleteForInvoice(System.String)">
+            <summary>
+            Удаляет все записи оборудования для указанной накладной
+            </summary>
+            <param name="idInvoice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnOrder.GetListEquipmentOnOrder(System.String)">
+            <summary>
+            Получает список оборудования, привязанного к заявке
+            </summary>
+            <param name="idOrder"></param>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnOrder.CheckDuplicate(System.String,System.String)">
+            <summary>
+            Проверяет наличие дубликатов оборудования в заявке
+            </summary>
+            <param name="idOrder"></param>
+            <param name="idEquipment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnOrder.Add(System.String,System.String,System.String,System.String)">
+            <summary>
+            Добавляет новое оборудование в заявку
+            </summary>
+            <param name="idOrder"></param>
+            <param name="idEquipment"></param>
+            <param name="count"></param>
+            <param name="explanation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnOrder.Update(System.String,System.String,System.String,System.String)">
+            <summary>
+            Обновляет информацию об оборудовании в заявке
+            </summary>
+            <param name="idEquipmentOnOrder"></param>
+            <param name="idEquipment"></param>
+            <param name="count"></param>
+            <param name="explanation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnOrder.Delete(System.String)">
+            <summary>
+            Удаляет запись оборудования из заявки
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.EquipmentOnOrder.DeleteForOrder(System.String)">
+            <summary>
+            Удаляет все записи оборудования для указанной заявки
+            </summary>
+            <param name="idOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Invoice.GetListInvoice">
+            <summary>
+            Получает список всех накладных из базы данных
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.Invoice.GetMaxIdInvoice">
+            <summary>
+            Получает максимальный ID накладной из базы данных 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Invoice.Update(System.String,System.String,System.String)">
+            <summary>
+            Обновляет данные существующей накладной в базе данных
+            </summary>
+            <param name="idInvoice"></param>
+            <param name="dateInvoice"></param>
+            <param name="idVendor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Invoice.Add(System.String,System.String)">
+            <summary>
+            Добавляет новую накладную в базу данных
+            </summary>
+            <param name="dateInvoice"></param>
+            <param name="idVendor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Invoice.Delete(System.String)">
+            <summary>
+            Удаляет наклданую из базы данных
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Orders.GetListOrders">
+            <summary>
+            Получает полный список всех заявок из базы данных
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.Orders.GetListCustomerOrders(System.String)">
+            <summary>
+            Получает список заказов по конкретному клиенту
+            </summary>
+            <param name="idCustomer"></param>
+        </member>
+        <member name="M:equipment.Classes.Orders.GetListFilterStatusOrders(System.String)">
+            <summary>
+            Получает список заявок по статусу
+            </summary>
+            <param name="idStatusOrder"></param>
+        </member>
+        <member name="M:equipment.Classes.Orders.GetStatusOrder(System.String)">
+            <summary>
+            Получает текущий статус заявки
+            </summary>
+            <param name="idOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Orders.SetStatusOrder(System.String,System.String,System.String)">
+            <summary>
+            Устанавливает новый статус заявки
+            </summary>
+            <param name="idOrder"></param>
+            <param name="idStatusOrder"></param>
+            <param name="idStaff"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Orders.GetMaxIdOrder">
+            <summary>
+            Получает максимальный ID заявки
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Orders.Update(System.String,System.String)">
+            <summary>
+            Обновляет заявку
+            </summary>
+            <param name="idOrder"></param>
+            <param name="dateOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Orders.Add(System.String,System.String)">
+            <summary>
+            Добавляет новую заявку
+            </summary>
+            <param name="idCustomer"></param>
+            <param name="dateOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Orders.Delete(System.String)">
+            <summary>
+            Удаляет заявку
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpAccess.GetList">
+            <summary>
+            получает список всех записей из таблицы s_access
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpAccess.CheckDuplicate(System.String)">
+            <summary>
+            проверяет наличие дубликатов по имени
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpAccess.CheckDelete(System.String)">
+            <summary>
+            проверяет возможность удаления записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpAccess.Add(System.String)">
+            <summary>
+            добавляет новую запись
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpAccess.Update(System.String,System.String)">
+            <summary>
+             обновляет существующую запись
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpAccess.Delete(System.String)">
+            <summary>
+            удаляет запись
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.GetList">
+            <summary>
+            получает список всех записей из таблицы s_company
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.GetListComboBox">
+            <summary>
+             получает список всех записей из таблицы s_company для отображения в выпадающем списке
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.CheckDuplicate(System.String)">
+            <summary>
+             проверяет наличие дубликатов по ИНН
+            </summary>
+            <param name="inn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.CheckDelete(System.String)">
+            <summary>
+            проверяет возможность удаления записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.Add(System.String,System.String,System.String)">
+            <summary>
+            добавляет новую запись
+            </summary>
+            <param name="name"></param>
+            <param name="inn"></param>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.Update(System.String,System.String,System.String,System.String)">
+            <summary>
+            обновляет существующую запись
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <param name="inn"></param>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpCompany.Delete(System.String)">
+            <summary>
+             удаляет запись
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpPost.GetList">
+            <summary>
+            получает список всех записей из таблицы s_post
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpPost.CheckDuplicate(System.String)">
+            <summary>
+            проверяет наличие дубликатов по имени
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpPost.CheckDelete(System.String)">
+            <summary>
+            проверяет возможность удаления записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpPost.Add(System.String)">
+            <summary>
+            добавляет новую запись
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpPost.Update(System.String,System.String)">
+            <summary>
+            обновляет существующую запись
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpPost.Delete(System.String)">
+            <summary>
+            удаляет запись
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpStatusOrder.GetList">
+            <summary>
+             получает список всех записей из таблицы s_statusorder
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpStatusOrder.CheckDuplicate(System.String)">
+            <summary>
+            проверяет наличие дубликатов по имени
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpStatusOrder.CheckDelete(System.String)">
+            <summary>
+            проверяет возможность удаления записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpStatusOrder.Add(System.String)">
+            <summary>
+            добавляет новую запись
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpStatusOrder.Update(System.String,System.String)">
+            <summary>
+            обновляет существующую запись
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpStatusOrder.Delete(System.String)">
+            <summary>
+            удаляет запись
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpTypeEquipment.GetList">
+            <summary>
+            получает список всех записей из таблицы s_typeEquipment
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpTypeEquipment.CheckDuplicate(System.String)">
+            <summary>
+            проверяет наличие дубликатов по имени
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpTypeEquipment.CheckDelete(System.String)">
+            <summary>
+            проверяет возможность удаления записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpTypeEquipment.Add(System.String)">
+            <summary>
+            добавляет новую запись
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpTypeEquipment.Update(System.String,System.String)">
+            <summary>
+            обновляет существующую запись
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpTypeEquipment.Delete(System.String)">
+            <summary>
+            удаляет запись
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpVendor.GetList">
+            <summary>
+            получает список всех записей из таблицы s_vendor
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.SpVendor.CheckDuplicate(System.String)">
+            <summary>
+            проверяет наличие дубликатов по имени
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpVendor.CheckDelete(System.String)">
+            <summary>
+            проверяет возможность удаления записи
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpVendor.Add(System.String)">
+            <summary>
+            добавляет новую запись
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpVendor.Update(System.String,System.String)">
+            <summary>
+            обновляет существующую запись
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.SpVendor.Delete(System.String)">
+            <summary>
+            удаляет запись
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.CheckDuplicate(System.String)">
+            <summary>
+            Проверяет уникальность логина в базе данных
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.Autorization(System.String,System.String)">
+            <summary>
+              Выполняет авторизацию пользователя
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.CheckPassword(System.String)">
+            <summary>
+            Проверяет соответствие пароля требованиям безопасности
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.CheckEmail(System.String)">
+            <summary>
+            Проверяет корректность формата email-адреса
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.CheckAccess(System.String)">
+            <summary>
+            Получает уровень доступа пользователя по логину
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.GetId">
+            <summary>
+            Получает текущий Id сотрудника
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.GetListStaff">
+            <summary>
+            Загружает полный список сотрудников 
+            </summary>
+        </member>
+        <member name="M:equipment.Classes.Staff.Add(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Добавляет нового сотрудника
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+            <param name="surname"></param>
+            <param name="name"></param>
+            <param name="patronymic"></param>
+            <param name="email"></param>
+            <param name="phone"></param>
+            <param name="pasportSeries"></param>
+            <param name="pasportNumber"></param>
+            <param name="idAccess"></param>
+            <param name="idPost"></param>
+            <returns></returns>
+        </member>
+        <member name="M:equipment.Classes.Staff.Update(System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Обновляет информацию о сотруднике
+            </summary>
+            <param name="idStaff"></param>
+            <param name="editPassword"></param>
+            <param name="login"></param>
+            <param name="password"></param>
+            <param name="surname"></param>
+            <param name="name"></param>
+            <param name="patronymic"></param>
+            <param name="email"></param>
+            <param name="phone"></param>
+            <param name="pasportSeries"></param>
+            <param name="pasportNumber"></param>
+            <param name="idAccess"></param>
+            <param name="idPost"></param>
+            <returns></returns>
+        </member>
+        <member name="F:equipment.Forms.AutorizationForms.CaptchaForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.AutorizationForms.CaptchaForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.AutorizationForms.CaptchaForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.AutorizationForms.LoginForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.AutorizationForms.LoginForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.AutorizationForms.LoginForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.CustomerMenuForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.CustomerMenuForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.CustomerMenuForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.EquipmentOnOrderForms.AddEquipmentOnOrderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.EquipmentOnOrderForms.AddEquipmentOnOrderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.EquipmentOnOrderForms.AddEquipmentOnOrderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.EquipmentOnOrderForms.UpdateEquipmentOnOrderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.EquipmentOnOrderForms.UpdateEquipmentOnOrderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.EquipmentOnOrderForms.UpdateEquipmentOnOrderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.LKCustomerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.LKCustomerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.LKCustomerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.OrdersForms.AddCustomerOrderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.OrdersForms.AddCustomerOrderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.OrdersForms.AddCustomerOrderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.OrdersForms.CustomerOrdersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.OrdersForms.CustomerOrdersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.OrdersForms.CustomerOrdersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.CustomersForms.OrdersForms.UpdateCustomerOrderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.OrdersForms.UpdateCustomerOrderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.CustomersForms.OrdersForms.UpdateCustomerOrderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.CustomersForms.AddCustomersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.CustomersForms.AddCustomersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.CustomersForms.AddCustomersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.CustomersForms.CustomersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.CustomersForms.CustomersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.CustomersForms.CustomersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.CustomersForms.UpdateCustomersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.CustomersForms.UpdateCustomersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.CustomersForms.UpdateCustomersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.EquipmentOnInvoiceForms.AddEquipmentOnInvoiceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentOnInvoiceForms.AddEquipmentOnInvoiceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentOnInvoiceForms.AddEquipmentOnInvoiceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.EquipmentOnInvoiceForms.UpdateEquipmentOnInvoiceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentOnInvoiceForms.UpdateEquipmentOnInvoiceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentOnInvoiceForms.UpdateEquipmentOnInvoiceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.EquipmentsForms.AddEquipmentsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentsForms.AddEquipmentsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentsForms.AddEquipmentsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.EquipmentsForms.EquipmentsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentsForms.EquipmentsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentsForms.EquipmentsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.EquipmentsForms.UpdateEquipmentsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentsForms.UpdateEquipmentsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.EquipmentsForms.UpdateEquipmentsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.InvoiceForms.AddInvoiceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.InvoiceForms.AddInvoiceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.InvoiceForms.AddInvoiceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.InvoiceForms.InvoiceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.InvoiceForms.InvoiceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.InvoiceForms.InvoiceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.InvoiceForms.UpdateInvoiceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.InvoiceForms.UpdateInvoiceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.InvoiceForms.UpdateInvoiceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.ManagerMenuForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.ManagerMenuForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.ManagerMenuForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.OrdersForms.OrdersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.OrdersForms.OrdersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.OrdersForms.OrdersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.SpForms.AddSpForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.SpForms.AddSpForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.SpForms.AddSpForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.SpForms.SpForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.SpForms.SpForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.SpForms.SpForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.SpForms.UpdateSpForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.SpForms.UpdateSpForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.SpForms.UpdateSpForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.StaffForms.AddStaffForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.StaffForms.AddStaffForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.StaffForms.AddStaffForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.StaffForms.StaffForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.StaffForms.StaffForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.StaffForms.StaffForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:equipment.Forms.ManagerForms.StaffForms.UpdateStaffForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.StaffForms.UpdateStaffForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:equipment.Forms.ManagerForms.StaffForms.UpdateStaffForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:equipment.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:equipment.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.background">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.connectString">
+             <summary>
+               Ищет локализованную строку, похожую на Database=equipment;
+            DataSource=localhost;
+            User=root;
+            Password=root;
+            Charset=utf8mb4;
+            .
+             </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.logo">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.properties">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:equipment.Properties.Resources.Акт">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+    </members>
+</doc>

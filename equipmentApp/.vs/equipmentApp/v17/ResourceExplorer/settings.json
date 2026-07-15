@@ -1,0 +1,37 @@
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\AddEquipmentsForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Properties\\Resources.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\SpForms\\AddSpForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\LKCustomerForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\AutorizationForms\\PropertiesConnectForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\CustomerMenuForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\UpdateEquipmentsForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\SpForms\\SpForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\AutorizationForms\\LoginForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\ManagerMenuForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\SpForms\\UpdateSpForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\EquipmentsForms\\EquipmentsForm.resx",
+    "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\CustomerOrdersForm.resx"
+  ],
+  "ExpandedProjects": [],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "file-path",
+    "file-name",
+    "type",
+    "neutral-value",
+    "neutral-comment"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-value"
+  ]
+}

@@ -1,0 +1,5 @@
+Database=equipment;
+DataSource=localhost;
+User=root;
+Password=root;
+Charset=utf8mb4;
