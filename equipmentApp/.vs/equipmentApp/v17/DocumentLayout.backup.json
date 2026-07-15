@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58EF1335-95AE-42B6-88D1-2DD97C6A3182}|UnitTestProject\\UnitTestProject.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58EF1335-95AE-42B6-88D1-2DD97C6A3182}|UnitTestProject\\UnitTestProject.csproj|solutionrelative:unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|c:\\users\\dimon\\desktop\\\u043F\u043F-01\\equipmentapp\\equipment\\classes\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -123,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\classes\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58EF1335-95AE-42B6-88D1-2DD97C6A3182}|UnitTestProject\\UnitTestProject.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58EF1335-95AE-42B6-88D1-2DD97C6A3182}|UnitTestProject\\UnitTestProject.csproj|solutionrelative:unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\forms\\managerforms\\staffforms\\updatestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7C81851-9427-4901-BABB-A5451C293946}|equipment\\equipment.csproj|solutionrelative:equipment\\forms\\managerforms\\staffforms\\updatestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -198,19 +198,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrdersForm.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
-              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
-              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
-              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAApwOAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T05:22:34.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AddStaffForm.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\AddStaffForm.cs",
@@ -222,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UpdateStaffForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\StaffForms\\UpdateStaffForm.cs",
@@ -233,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UpdateCustomersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\CustomersForms\\UpdateCustomersForm.cs",
@@ -244,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DocumentsExport.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\DocumentsExport.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\DocumentsExport.cs",
@@ -256,20 +244,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Orders.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Orders.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\Orders.cs",
               "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Orders.cs",
               "RelativeToolTip": "equipment\\Classes\\Orders.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowB8AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwB8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T21:04:20.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\UnitTestProject\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTestProject\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\UnitTestProject\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTestProject\\UnitTest1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:39:21.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersForm.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "RelativeToolTip": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAApwOAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:22:34.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Staff.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\Staff.cs",
@@ -281,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SpAccess.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpAccess.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\SpAccess.cs",
@@ -293,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SpPost.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpPost.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\SpPost.cs",
@@ -305,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SpStatusOrder.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpStatusOrder.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\SpStatusOrder.cs",
@@ -317,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CustomerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\CustomerMenuForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\CustomerMenuForm.cs",
@@ -328,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ManagerMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\ManagerMenuForm.cs",
@@ -339,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrdersForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\ManagerForms\\OrdersForms\\OrdersForm.cs",
@@ -350,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Invoice.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\Invoice.cs",
@@ -362,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Equipments.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Equipments.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\Equipments.cs",
@@ -374,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EquipmentOnOrder.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\EquipmentOnOrder.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\EquipmentOnOrder.cs",
@@ -386,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Customers.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\Customers.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\Customers.cs",
@@ -398,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SpTypeEquipment.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpTypeEquipment.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\SpTypeEquipment.cs",
@@ -410,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UpdateEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
@@ -421,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UpdateCustomerOrderForm.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
@@ -433,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UpdateEquipmentOnOrderForm.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\UpdateEquipmentOnOrderForm.cs",
@@ -445,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AddCustomerOrderForm.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
@@ -457,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AddCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\AddCustomerOrderForm.cs",
@@ -468,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UpdateCustomerOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\OrdersForms\\UpdateCustomerOrderForm.cs",
@@ -479,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AddEquipmentOnOrderForm.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
@@ -491,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "AddEquipmentOnOrderForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
               "RelativeDocumentMoniker": "equipment\\Forms\\CustomersForms\\EquipmentOnOrderForms\\AddEquipmentOnOrderForm.cs",
@@ -502,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EquipmentOnInvoice.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\EquipmentOnInvoice.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\EquipmentOnInvoice.cs",
@@ -514,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "SpCompany.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpCompany.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\SpCompany.cs",
@@ -526,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "SpVendor.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\SpVendor.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\SpVendor.cs",
@@ -538,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\equipment\\Classes\\DBConnection.cs",
               "RelativeDocumentMoniker": "equipment\\Classes\\DBConnection.cs",
@@ -547,18 +560,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T12:45:09.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\UnitTestProject\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "UnitTestProject\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\dimon\\Desktop\\\u041F\u041F-01\\equipmentApp\\UnitTestProject\\UnitTest1.cs",
-              "RelativeToolTip": "UnitTestProject\\UnitTest1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwFgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T13:39:21.105Z"
             },
             {
               "$type": "Document",
